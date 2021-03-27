@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (C) 2021 Cube Payment Services Pte Ltd ("CubePay"). All Rights Reserved.            ~
+  ~                                                                                               ~
+  ~ NOTICE: All information contained herein is, and remains the property of CubePay. The         ~
+  ~ intellectual and technical concepts contained herein are proprietary to CubePay and may be    ~
+  ~ covered by Patents, patents in process, and are protected by trade secret or copyright law.   ~
+  ~ Dissemination of this information or reproduction of this material is strictly forbidden      ~
+  ~ unless prior written permission is obtained from CubePay.                                     ~
+  ~                                                                                               ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under the     ~
+  ~ License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY           ~
+  ~ KIND, either express or implied.                                                              ~
+  ~                                                                                               ~
+  ~ "CubePay", "Radiumone" and the respective brand marks are registered trademarks of CubePay.   ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_notifications_none_24"
+        android:orderInCategory="100"
+        android:title="@string/notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_menu_settings"
+        android:orderInCategory="100"
+        android:title="setting "
+        app:showAsAction="always">
+
+    </item>
+
+</menu>

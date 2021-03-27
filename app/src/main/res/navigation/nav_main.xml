@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/phoneFragment">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.ck.test.cloudinterview_chengkai.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/phoneFragment"
+        android:name="com.ck.test.cloudinterview_chengkai.ui.phone.PhoneFragment"
+        android:label="phone_fragment"
+        tools:layout="@layout/phone_fragment" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.ck.test.cloudinterview_chengkai.ui.chat.ChatFragment"
+        android:label="chat_fragment"
+        tools:layout="@layout/chat_fragment" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.ck.test.cloudinterview_chengkai.ui.explore.ExploreFragment"
+        android:label="explore_fragment"
+        tools:layout="@layout/explore_fragment" />
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.ck.test.cloudinterview_chengkai.ui.scanner.ScanFragment"
+        android:label="scan_fragment"
+        tools:layout="@layout/scan_fragment" />
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.ck.test.cloudinterview_chengkai.ui.wallet.WalletFragment"
+        android:label="wallet_fragment"
+        tools:layout="@layout/wallet_fragment" />
+</navigation>

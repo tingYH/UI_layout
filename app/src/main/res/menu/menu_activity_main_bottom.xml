@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_group_quick_access"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/phoneFragment"
+            android:icon="@drawable/ic_baseline_phone"
+            android:title="@string/menu_phone" />
+        <item
+            android:id="@+id/chatFragment"
+            android:icon="@drawable/ic_baseline_chat"
+            android:title="@string/menu_chat" />
+
+        <item
+            android:id="@+id/scanFragment"
+            android:icon="@drawable/ic_baseline_qr_code_scanner"
+            android:title="@string/menu_scan" />
+        <item
+            android:id="@+id/exploreFragment"
+            android:icon="@drawable/ic_baseline_menu_book"
+            android:title="@string/menu_explore" />
+
+        <item
+            android:id="@+id/walletFragment"
+            android:icon="@drawable/ic_baseline_monetization"
+            android:title="@string/menu_wallet" />
+
+
+
+    </group>
+</menu>
