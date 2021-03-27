@@ -14,8 +14,6 @@ import com.google.android.material.tabs.TabLayout
 
 class PhoneFragment : Fragment() {
 
-
-
     private lateinit var viewModel: PhoneViewModel
     private lateinit var tab: TabLayout
     private var _binding: PhoneFragmentBinding? = null
@@ -34,11 +32,9 @@ class PhoneFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(PhoneViewModel::class.java)
         var viewPg = binding.viewPager
 
-//        viewPg.adapter =  ViewPagerAdapter()
+        viewPg.adapter =  ViewPagerAdapter(childFragmentManager)
         tab = binding.tabLayout
 
-        tab.addTab(tab.newTab().setText(resources.getString(R.string.tab_1)))
-        tab.addTab(tab.newTab().setText(resources.getString(R.string.tab_2)))
         tab.setupWithViewPager(viewPg)
 
     }

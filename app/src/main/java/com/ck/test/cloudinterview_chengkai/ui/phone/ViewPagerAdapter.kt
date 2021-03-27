@@ -3,6 +3,7 @@ package com.ck.test.cloudinterview_chengkai.ui.phone
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.ck.test.cloudinterview_chengkai.R
 import com.ck.test.cloudinterview_chengkai.ui.phone.content.CardFragment
 
 /**
@@ -21,6 +22,14 @@ class ViewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(
         when (position) {
             0 -> return CardFragment()
             else -> return CardFragment()
+        }
+    }
+
+    override fun getPageTitle(position: Int): CharSequence {
+        return when (position) {
+            0 -> "容幣紀錄"
+            1 -> "兌換卷(2)"
+            else -> ""
         }
     }
 }
